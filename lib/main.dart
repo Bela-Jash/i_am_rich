@@ -3,16 +3,16 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
+      // A layout widget
       home: Scaffold(
-        // A layout widget
+        backgroundColor: Colors.blueGrey,
+        // A component widget
         appBar: AppBar(
-          // A component widget
           title: Text(
             'I Am Rich',
             style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
         ),
-        backgroundColor: Colors.blueGrey,
       ),
     ),
   );
