@@ -9,12 +9,12 @@ void main() {
         // A component widget
         appBar: AppBar(
           backgroundColor: Colors.blueGrey[900],
-          title: Text(
+          title: const Text(
             'I Am Rich',
             style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
         ),
-        body: Center(
+        body: const Center(
           child: Image(image: AssetImage('images/diamond.png')),
         ),
       ),
