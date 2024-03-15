@@ -15,10 +15,7 @@ void main() {
           ),
         ),
         body: Center(
-          child: Image(
-            image: NetworkImage(
-                'https://img.freepik.com/free-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_188544-8593.jpg'),
-          ),
+          child: Image(image: AssetImage('images/diamond.png')),
         ),
       ),
     ),
